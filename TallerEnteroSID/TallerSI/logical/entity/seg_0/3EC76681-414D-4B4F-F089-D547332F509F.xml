@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EC76681-414D-4B4F-F089-D547332F509F" name="Albumv1">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>3BB392F6-3472-4ACC-6592-3127742B9F81</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id album" id="1C7CA57E-EF62-8B26-316B-19D4A8D34239">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>2D0188AD-0B4E-4EDB-2A40-1DD45372EDF3</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="10F3115E-6492-4943-E572-47327C8E271D">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>18A2EB32-05A1-3B21-AB5C-F910DA7F5DD8</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>95B23A75-A1BD-8E1C-4E23-6C982E805D71</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha lanzamiento" id="ACFF1813-2A56-E1FE-B7EB-CF0A7A7A0542">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>7827E204-9B0F-8D18-E242-20E583B3C602</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>63A1EEB9-E304-9063-5C23-44DC12C75BC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id artista" id="91534A42-34B3-ADC9-0DD6-8AF5D0E4EDC8">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>F8CBDE6F-900F-8AF9-FCBB-C12B33C498BE</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<referedAttribute>7509B707-1E9A-A21D-8056-D3C11BE1F5EC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="835844FE-4A87-985A-EA54-286411EF8747" name="Album PK">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>28F2A29B-05CF-0646-644C-6C676F3E6B44</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C7CA57E-EF62-8B26-316B-19D4A8D34239</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

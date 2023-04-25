@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2E2DCE7-8621-7669-EA38-E5D8440988A4" name="Usuario">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>58460201-2496-6977-D3EF-0E57ACF95D56</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id usuario" id="57C46E1B-B793-4FA9-C5BE-05F34F26C71F">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>22F51539-4158-8A64-CE16-76DD6D5193E7</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="1ADBDBF9-6BD4-6D42-1108-135F2E94C2C8">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>E00FEB97-C9CD-486A-E9F0-2E90C80A39E5</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56859170-1DA3-2E2B-3076-89EF328B68C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="BFC8F575-D914-8B51-9204-6996B9F0427B">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>B7D0D1BB-E63C-C613-0C41-FE9AC6878A31</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>95B23A75-A1BD-8E1C-4E23-6C982E805D71</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha registro" id="74AB116D-305B-C73E-F8D1-CB622A1C4781">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>E605D85E-3FED-1434-005E-746FEC438EEB</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>63A1EEB9-E304-9063-5C23-44DC12C75BC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="14D5C8C8-608D-6C66-6BD7-7BEFE1C4A46B" name="Usuario PK">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>E7045274-4087-7D10-6A3F-1157802AF977</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57C46E1B-B793-4FA9-C5BE-05F34F26C71F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="20CCD4DB-30D1-6DE1-4AE7-4E392CC86F73" name="INDEX 1">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>13E7B9BB-D974-5C73-35A5-18A50D190DEE</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>BFC8F575-D914-8B51-9204-6996B9F0427B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

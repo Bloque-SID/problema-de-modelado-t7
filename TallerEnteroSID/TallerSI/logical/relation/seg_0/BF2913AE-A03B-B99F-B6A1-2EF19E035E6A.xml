@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_cancion" directorySegmentName="seg_0" id="BF2913AE-A03B-B99F-B6A1-2EF19E035E6A">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>DB8B71F6-8D20-8B89-1127-816A4BC246A7</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<sourcePk>72EB7AF5-D33E-7452-2424-6F89A5221A3A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22D28AB5-1FE2-FC93-46D0-44DB4D7BFAA4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5E3CB1AD-22C3-33EA-A91B-E3C2427EEDFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

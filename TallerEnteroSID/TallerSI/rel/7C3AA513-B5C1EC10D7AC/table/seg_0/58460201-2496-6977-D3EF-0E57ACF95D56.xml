@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58460201-2496-6977-D3EF-0E57ACF95D56" name="Usuario">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>98F0E343-C74D-06B1-CF65-6FA347C32C89</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="22F51539-4158-8A64-CE16-76DD6D5193E7">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>602865B4-25A2-2BAC-0FFD-7C8F7D16B884</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E00FEB97-C9CD-486A-E9F0-2E90C80A39E5">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>24265D7F-3372-C950-EE3E-4E1C6B069AED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>56859170-1DA3-2E2B-3076-89EF328B68C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B7D0D1BB-E63C-C613-0C41-FE9AC6878A31">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>F0D7C7B7-E907-F9F8-5872-49249F4A24D9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>95B23A75-A1BD-8E1C-4E23-6C982E805D71</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_registro" id="E605D85E-3FED-1434-005E-746FEC438EEB">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>17AE7FDA-2667-38F1-6D05-14C80720BB68</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>63A1EEB9-E304-9063-5C23-44DC12C75BC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7045274-4087-7D10-6A3F-1157802AF977" name="Usuario_PK">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>791A42C2-202B-5BB2-114C-DECD01E28534</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22F51539-4158-8A64-CE16-76DD6D5193E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13E7B9BB-D974-5C73-35A5-18A50D190DEE" name="INDEX_1">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>2D5264FF-CAD4-8C29-FD14-8734A18C02D0</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7D0D1BB-E63C-C613-0C41-FE9AC6878A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

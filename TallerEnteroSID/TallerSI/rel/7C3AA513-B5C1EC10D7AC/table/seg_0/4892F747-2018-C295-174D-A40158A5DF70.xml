@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4892F747-2018-C295-174D-A40158A5DF70" name="Comentario">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>7FCF0BAF-9A74-320D-7D29-A1F1A321F7B4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comentario" id="5F0486F3-68C4-60F8-3B8A-3B0D2A1644BF">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>B3CE26C4-BE23-7E5C-D583-DAAA9358328F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="8C1A22B5-DA27-42A2-957D-06D34B6969A3">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>8F8D504D-12DE-6101-6DEE-BA2839C0F972</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2830EEF7-85F7-8761-31CC-4032003BF2EF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cancion" id="0AFDB98F-21FC-83D4-4C51-5AA458E227CB">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>C7F4C47F-B0F6-8511-7CBC-554AEE37FC2C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22F56E66-1C16-FADE-6FD4-DB6B13092E18" referredColumn="CEE4C5BA-6A43-7FCD-C15A-2B3E93E72D10"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="00065A90-7E24-2F01-1614-6C797CD6FC89">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>B5F8DCF6-995B-4FC2-7DBE-A9FC75FF7D14</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45D8C059-3DEF-732A-399C-AB6EDB028867" referredColumn="22F51539-4158-8A64-CE16-76DD6D5193E7"/>
+</associations>
+</Column>
+<Column name="fecha_comentario" id="40FEE6CB-D962-A8ED-C3C4-3ABC00C6DF67">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>718414FF-D1E4-EA33-7A68-29DBDC806842</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>63A1EEB9-E304-9063-5C23-44DC12C75BC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6070325-1E66-3E1E-5E8E-0E31C9BD2254" name="Comentario_PK">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>9EBB4FEF-8FC7-8FCE-999F-A773801662ED</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F0486F3-68C4-60F8-3B8A-3B0D2A1644BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3AAA14E-DBCC-25FB-3A83-7D252166EE94" name="fk_cancion3">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFDB98F-21FC-83D4-4C51-5AA458E227CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3132B630-EF4F-0C51-67DF-972210A9E892" name="fk_usuario3">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00065A90-7E24-2F01-1614-6C797CD6FC89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

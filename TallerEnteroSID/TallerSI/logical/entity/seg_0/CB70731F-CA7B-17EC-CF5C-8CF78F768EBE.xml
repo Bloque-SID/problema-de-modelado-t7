@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB70731F-CA7B-17EC-CF5C-8CF78F768EBE" name="Comentario">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>4892F747-2018-C295-174D-A40158A5DF70</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id comentario" id="E099B225-D125-87D1-28AC-F558021C36D9">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>5F0486F3-68C4-60F8-3B8A-3B0D2A1644BF</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comentario" id="0ED845CE-8E85-47DB-0FEB-EF288A4313FC">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>8C1A22B5-DA27-42A2-957D-06D34B6969A3</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2830EEF7-85F7-8761-31CC-4032003BF2EF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id cancion" id="02E57E73-B2B5-3399-5212-798A240B189D">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>A3D67EA3-D2EA-255A-0A09-255193CC706F</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<referedAttribute>5B14B702-B602-6D7B-E2F3-F04CA228114F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id usuario" id="BD421020-4285-FA19-74FB-2362D044727E">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>0D077B81-420A-2F86-46B1-5B653A49779A</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<referedAttribute>57C46E1B-B793-4FA9-C5BE-05F34F26C71F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha comentario" id="3C3067AC-1A98-DA4E-4336-BBE0E96C71D1">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>40FEE6CB-D962-A8ED-C3C4-3ABC00C6DF67</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>63A1EEB9-E304-9063-5C23-44DC12C75BC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16FF0905-2D3B-DE29-AECB-70273C6734C7" name="Comentario PK">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>A6070325-1E66-3E1E-5E8E-0E31C9BD2254</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E099B225-D125-87D1-28AC-F558021C36D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

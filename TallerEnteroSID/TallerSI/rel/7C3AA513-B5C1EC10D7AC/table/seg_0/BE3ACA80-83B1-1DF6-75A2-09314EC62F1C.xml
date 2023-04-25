@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE3ACA80-83B1-1DF6-75A2-09314EC62F1C" name="DetalleListaReproduccion">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>B3F9DE3B-BBC8-58D0-71F6-2A4695C3FEAF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalle" id="F30A9962-A722-4F4E-8FCA-3BA2EDF7B8B0">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>E27C0A37-AB3D-ABA1-D2CE-77C0AEDA155D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_lista" id="647A289B-911E-0CC1-CFCF-51FC0F64D623">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>0BD8A0AD-5929-D2B4-9532-2E031CEDD494</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6635848-1433-D2E1-026E-52E25780539A" referredColumn="48383C5B-03F8-8C03-5A3F-5E814B23D8FC"/>
+</associations>
+</Column>
+<Column name="id_cancion" id="D0652120-CEED-1ADD-D0CB-7E6DA472D18F">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>91DC1146-520E-D49D-00F0-BD5861C9EDD6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>598BDFB8-BC13-6234-3360-2D80BD2C6259</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB8B71F6-8D20-8B89-1127-816A4BC246A7" referredColumn="CEE4C5BA-6A43-7FCD-C15A-2B3E93E72D10"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="230E34D8-8097-0060-A71B-444CF40A2C26" name="DetalleListaReproduccion_PK">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>B4CD8A0C-8DA0-7627-23D0-4EB98D1A11D4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F30A9962-A722-4F4E-8FCA-3BA2EDF7B8B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="770B961B-C78E-14C7-6321-B1249A5D0A51" name="fk_cancion">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0652120-CEED-1ADD-D0CB-7E6DA472D18F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC763C38-32DF-8D67-1696-3821021BE9D1" name="fk_lista">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="647A289B-911E-0CC1-CFCF-51FC0F64D623"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

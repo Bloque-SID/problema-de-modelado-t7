@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6635848-1433-D2E1-026E-52E25780539A" containerWithKeyObject="BE3ACA80-83B1-1DF6-75A2-09314EC62F1C" localFKIndex="FC763C38-32DF-8D67-1696-3821021BE9D1" name="fk_lista">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>FA9C60BC-B5B6-C0B9-0CD5-0E010670DB44</importedID>
+<referredTableLongName>ListaReproduccion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>236572D4-6680-2F1A-8850-7D5064AFEEF3</referredTableID>
+<keyObject>A60827C9-E98C-A632-B0A4-50F78DB05C79</keyObject>
+<referredKeyID>A60827C9-E98C-A632-B0A4-50F78DB05C79</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lista</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

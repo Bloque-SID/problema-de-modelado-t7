@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TallerSI" id="3EF54773-6058-D88E-DDD9-B6F4C809D66C" version="3.5">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:10:31 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3EF54773-6058-D88E-DDD9-B6F4C809D66C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1B65EE8A-B20E-F832-02C3-20DFDFC0D3C1">
+<designStoragePath>C:\prueba</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

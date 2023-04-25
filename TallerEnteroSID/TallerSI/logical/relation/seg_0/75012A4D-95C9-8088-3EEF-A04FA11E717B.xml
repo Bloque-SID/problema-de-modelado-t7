@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_lista" directorySegmentName="seg_0" id="75012A4D-95C9-8088-3EEF-A04FA11E717B">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>D6635848-1433-D2E1-026E-52E25780539A</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<sourcePk>579A437D-381D-77C3-A60C-394743DBE4F9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4FECA04-37FC-EDA8-7ED1-AACF47C150E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5E3CB1AD-22C3-33EA-A91B-E3C2427EEDFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

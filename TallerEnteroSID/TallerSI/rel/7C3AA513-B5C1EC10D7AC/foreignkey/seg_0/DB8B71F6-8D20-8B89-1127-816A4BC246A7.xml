@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB8B71F6-8D20-8B89-1127-816A4BC246A7" containerWithKeyObject="BE3ACA80-83B1-1DF6-75A2-09314EC62F1C" localFKIndex="770B961B-C78E-14C7-6321-B1249A5D0A51" name="fk_cancion">
+<sourceDDLFile>prueba.sql</sourceDDLFile>
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:52:58 UTC</createdTime>
+<ownerDesignName>TallerSI</ownerDesignName>
+<importedID>D0CD84CD-6F13-A70F-EBF2-01CE0BD1A377</importedID>
+<referredTableLongName>Cancion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>298066E2-F0BF-6B53-E129-948E2550146D</referredTableID>
+<keyObject>62E132BD-F3C0-8889-8362-DA65075AD055</keyObject>
+<referredKeyID>62E132BD-F3C0-8889-8362-DA65075AD055</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cancion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

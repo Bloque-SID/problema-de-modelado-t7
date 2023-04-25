@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_album" directorySegmentName="seg_0" id="4DDA45FB-9975-69B7-C293-39D60AADA04C">
+<createdBy>sebas</createdBy>
+<createdTime>2023-04-25 02:58:43 UTC</createdTime>
+<generatorID>5C297AA9-F0BB-E9E4-8AC5-815E0F1E870C</generatorID>
+<ownerDesignName>TallerSI</ownerDesignName>
+<engineerTo>
+<item key="7C3AA513-D510-E95E-4A09-B5C1EC10D7AC" value="true"/>
+</engineerTo>
+<sourcePk>835844FE-4A87-985A-EA54-286411EF8747</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3EC76681-414D-4B4F-F089-D547332F509F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>22D28AB5-1FE2-FC93-46D0-44DB4D7BFAA4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

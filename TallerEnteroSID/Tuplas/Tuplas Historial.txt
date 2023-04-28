@@ -1,0 +1,67 @@
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (1, 1, 2, Date'2023-01-01');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (2, 1, 5, Date'2023-02-03');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (3, 1, 10, Date'2023-03-05');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (4, 2, 3, Date'2023-04-02');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (5, 2, 7, Date'2023-05-20');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (6, 2, 14, Date'2023-06-14');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (7, 3, 1, Date'2023-07-10');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (8, 3, 8, Date'2023-08-23');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (9, 3, 9, Date'2023-09-01');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (10, 4, 6, Date'2023-10-15');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (11, 4, 11, Date'2023-11-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (12, 4, 16, Date'2023-12-18');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (13, 5, 4, Date'2024-01-09');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (14, 5, 12, Date'2024-02-22');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (15, 5, 15, Date'2024-03-11');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) 
+VALUES (16, 6, 18, Date'2024-04-08');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (16, 2, 6, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (17, 2, 9, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (18, 2, 13, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (19, 23, 1, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (20, 43, 3, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (21, 3, 10, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (22, 4, 7, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (23, 34, 8, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (24, 4, 14, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (25, 5, 2, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (26, 5, 5, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (27, 5, 11, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (28, 46, 4, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (29, 26, 12, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (30, 6, 15, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (31, 7, 3, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (32, 17, 6, Date'2023-04-28');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (33, 4, 10, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (34, 4, 11, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (35, 4, 12, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (36, 5, 13, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (37, 35, 14, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (38, 5, 15, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (39, 40, 16, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (40, 6, 17, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (41, 6, 18, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (42, 7, 19, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (43, 7, 20, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (44, 7, 21, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (45, 8, 22, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (46, 8, 43, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (47, 50, 24, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (48, 9, 25, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (49, 9, 26, DATE '2023-04-29');
+INSERT INTO Historial (id_historial, id_usuario, id_cancion, fecha_reproduccion) VALUES (50, 49, 36, DATE '2023-04-29');

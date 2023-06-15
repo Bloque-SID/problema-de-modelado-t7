@@ -33,7 +33,8 @@ INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (32, 
 INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (33, 'Euphoria', DATE '2019-06-05', 9);
 INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (34, 'Querer Mejor', DATE '2019-06-14', 9);
 INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (35, 'Real Hasta La Muerte 2', DATE '2020-02-29', 6);
-INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (36, 'Yo Hago Lo Que Me Da La Gana', DATE '2020-02-27
+-- avillota: El insert de esta línea tiene un error de sintaxis, por tanto el archivo no puede cargarse
+--INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (36, 'Yo Hago Lo Que Me Da La Gana', DATE '2020-02-27
 INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (37, 'Cambio de Piel', DATE '2014-11-18', 8);
 INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (38, 'Animal', DATE '2019-05-17', 4);
 INSERT INTO Album (id_album, titulo, fecha_lanzamiento, id_artista) VALUES (39, 'Aura', DATE '2018-08-24', 1);
